@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Sarah Johnson",
+    "specialization": "Math Tutoring & ADHD Support",
+    "location": "Chicago, IL",
+    "rating": "4.9",
+    "shortDescription": "Specialized in helping students with ADHD develop effective learning strategies. 10+ years experience in educational psychology.",
+    "longDescription": "Dr. Sarah Johnson is a licensed educational psychologist with over 10 years of experience helping students with ADHD and learning difficulties excel in mathematics. She holds a Ph.D. in Educational Psychology from Northwestern University and is certified in specialized ADHD intervention techniques. Her approach combines evidence-based teaching methods with personalized strategies tailored to each student's unique learning profile. She has successfully helped over 200 students improve their academic performance and build confidence in their abilities.",
+    "contactEmail": "sarah.johnson@email.com",
+    "phoneNumber": "(555) 123-4567"
+  },
+  {
+    "id": 2,
+    "name": "Michael Chen",
+    "specialization": "Reading Specialist & Dyslexia Support",
+    "location": "Boston, MA",
+    "rating": "4.8",
+    "shortDescription": "Expert in phonics-based reading instruction and dyslexia intervention strategies. Certified Orton-Gillingham practitioner.",
+    "longDescription": "Michael Chen is a certified reading specialist with expertise in dyslexia intervention and phonics-based instruction. He is an Orton-Gillingham practitioner with 8 years of experience helping students overcome reading challenges. His comprehensive approach includes multi-sensory teaching techniques and individualized reading programs designed to build foundational skills and boost confidence in struggling readers.",
+    "contactEmail": "michael.chen@email.com",
+    "phoneNumber": "(555) 234-5678"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Emily Rodriguez",
+    "specialization": "Autism Spectrum Support",
+    "location": "Austin, TX",
+    "rating": "5.0",
+    "shortDescription": "Behavioral therapist specializing in autism spectrum disorders. Develops individualized learning plans and social skills training.",
+    "longDescription": "Dr. Emily Rodriguez is a board-certified behavioral therapist with specialized training in autism spectrum disorders. She has 12 years of experience developing individualized education programs and social skills training for children and adolescents on the autism spectrum. Her evidence-based approach focuses on building communication skills, reducing challenging behaviors, and promoting independence in academic and social settings.",
+    "contactEmail": "emily.rodriguez@email.com",
+    "phoneNumber": "(555) 345-7890"
+  },
+  {
+    "id": 4,
+    "name": "James Thompson",
+    "specialization": "Executive Function Coaching",
+    "location": "Seattle, WA",
+    "rating": "4.7",
+    "shortDescription": "Helps students develop organization, time management, and study skills. Specializes in working with high school and college students.",
+    "longDescription": "James Thompson is a certified executive function coach with 6 years of experience helping students develop crucial life skills including organization, time management, and effective study strategies. He works primarily with high school and college students who struggle with planning, prioritizing, and completing tasks. His coaching approach emphasizes practical skill-building and the development of sustainable systems for academic success.",
+    "contactEmail": "james.thompson@email.com",
+    "phoneNumber": "(555) 456-7891"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Maria Santos",
+    "specialization": "Speech-Language Therapy",
+    "location": "Miami, FL",
+    "rating": "4.9",
+    "shortDescription": "Licensed speech-language pathologist with expertise in communication disorders and language development.",
+    "longDescription": "Dr. Maria Santos is a licensed speech-language pathologist with 15 years of experience treating communication disorders in children and adults. She specializes in language development, articulation disorders, and fluency issues. Her comprehensive approach includes family education and collaborative treatment planning to ensure optimal outcomes for her clients.",
+    "contactEmail": "maria.santos@email.com",
+    "phoneNumber": "(555) 567-8912"
+  },
+  {
+    "id": 6,
+    "name": "Robert Kim",
+    "specialization": "Learning Disabilities Support",
+    "location": "Denver, CO",
+    "rating": "4.6",
+    "shortDescription": "Educational consultant specializing in learning disabilities and academic accommodations. Helps students navigate IEP and 504 plans.",
+    "longDescription": "Robert Kim is an educational consultant with 9 years of experience supporting students with learning disabilities. He specializes in developing appropriate academic accommodations and helping families navigate the IEP and 504 plan processes. His advocacy work ensures students receive the support they need to succeed in their educational environment.",
+    "contactEmail": "robert.kim@email.com",
+    "phoneNumber": "(555) 678-9123"
+  }
+]
