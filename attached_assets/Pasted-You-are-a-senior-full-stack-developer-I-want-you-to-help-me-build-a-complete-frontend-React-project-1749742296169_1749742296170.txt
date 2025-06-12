@@ -1,0 +1,57 @@
+You are a senior full-stack developer. I want you to help me build a complete frontend React project with the following requirements:
+
+🧩 PROJECT NAME: Learning Support Provider Directory
+
+🔧 STACK: Use React with Vite. TypeScript preferred. TailwindCSS for styling. Use React Router for page navigation.
+
+📁 FEATURES:
+1. Project Setup:
+   - Use Vite to create a new React + javascript project. 
+   - Configure TailwindCSS with PostCSS and autoprefixer.
+   - Add folder structure for `components`, `pages`, `data`, `utils`.
+
+2. Data Simulation (API):
+   - Create a `providers.json` file with 5-7 learning support provider objects.
+   - Each object must have:
+     - id, name, specialization, location, rating (1-5), shortDescription, longDescription, contactEmail, phoneNumber.
+   - Simulate API using `setTimeout` and Promises in a utility file (`utils/fetchProviders.ts`).
+
+3. Pages:
+   A. `/` or `/providers`: **Provider Listing Page**
+     - Fetch and display the list of providers.
+     - Show: name, specialization, location, rating.
+     - Each card must link to a detailed view.
+     - Add a search/filter input that filters by name or specialization.
+     - Use a responsive card layout using Tailwind.
+   
+   B. `/providers/:id`: **Provider Detail Page**
+     - Fetch the single provider by ID.
+     - Display all data fields.
+     - Show fallback UI if not found.
+     - Add "Back to List" button.
+
+4. Components:
+   - `ProviderCard.tsx`: Renders one provider's preview.
+   - `SearchInput.tsx`: Controlled input for filtering.
+   - Reusable layout elements if needed.
+
+5. Routing:
+   - Set up routing with React Router v6.
+   - Handle 404 or not-found provider in detail view.
+
+6. Code Quality:
+   - Use functional components and React Hooks.
+   - Separate concerns into components and utility functions.
+   - Add comments where necessary.
+
+7. Git:
+   - Initialize Git repo.
+   - Include a `README.md` with:
+     - Project overview, tech stack, setup instructions, and folder structure.
+
+📦 DELIVERABLES:
+- Complete project folder structure with working code.
+- All files should be production-quality.
+- README.md file with setup steps (`npm install`, `npm run dev`).
+
+Please generate all files and code needed. Assume I will copy-paste and run it directly. If needed, break into logical sections with file names and full code blocks.
