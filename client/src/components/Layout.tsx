@@ -27,9 +27,9 @@ export default function Layout({ children }: LayoutProps) {
             {/* Navigation Links */}
             <div className="hidden md:flex items-center space-x-8">
               <Link href="/">
-                <a className={`${location === "/" ? "text-primary font-medium border-b-2 border-primary pb-2" : "text-gray-500 hover:text-gray-700"} transition-colors cursor-pointer`}>
+                <span className={`${location === "/" ? "text-primary font-medium border-b-2 border-primary pb-2" : "text-gray-500 hover:text-gray-700"} transition-colors cursor-pointer`}>
                   Providers
-                </a>
+                </span>
               </Link>
               <a href="#about" className="text-gray-500 hover:text-gray-700 transition-colors">
                 About
@@ -67,7 +67,7 @@ export default function Layout({ children }: LayoutProps) {
             <div>
               <h4 className="font-semibold text-gray-700 mb-4">Quick Links</h4>
               <ul className="space-y-2 text-gray-600">
-                <li><Link href="/"><a className="hover:text-primary transition-colors">Find Providers</a></Link></li>
+                <li><Link href="/"><span className="hover:text-primary transition-colors">Find Providers</span></Link></li>
                 <li><a href="#about" className="hover:text-primary transition-colors">About Us</a></li>
                 <li><a href="#how-it-works" className="hover:text-primary transition-colors">How It Works</a></li>
               </ul>

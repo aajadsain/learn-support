@@ -10,8 +10,8 @@ import { Skeleton } from "@/components/ui/skeleton";
 
 export default function ProvidersPage() {
   const [searchQuery, setSearchQuery] = useState("");
-  const [locationFilter, setLocationFilter] = useState("");
-  const [specializationFilter, setSpecializationFilter] = useState("");
+  const [locationFilter, setLocationFilter] = useState("all");
+  const [specializationFilter, setSpecializationFilter] = useState("all");
   const [sortBy, setSortBy] = useState("rating");
 
   const { data: providers, isLoading, error } = useQuery<Provider[]>({

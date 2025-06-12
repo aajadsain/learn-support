@@ -46,7 +46,7 @@ export default function SearchInput({
                 <SelectValue placeholder="All Locations" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">All Locations</SelectItem>
+                <SelectItem value="all">All Locations</SelectItem>
                 <SelectItem value="chicago">Chicago, IL</SelectItem>
                 <SelectItem value="boston">Boston, MA</SelectItem>
                 <SelectItem value="austin">Austin, TX</SelectItem>
@@ -61,7 +61,7 @@ export default function SearchInput({
                 <SelectValue placeholder="All Specializations" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">All Specializations</SelectItem>
+                <SelectItem value="all">All Specializations</SelectItem>
                 <SelectItem value="math">Math Tutoring</SelectItem>
                 <SelectItem value="reading">Reading Support</SelectItem>
                 <SelectItem value="adhd">ADHD Support</SelectItem>

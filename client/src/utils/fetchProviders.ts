@@ -26,10 +26,10 @@ export function filterProviders(
       provider.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
       provider.specialization.toLowerCase().includes(searchQuery.toLowerCase());
     
-    const matchesLocation = !location || 
+    const matchesLocation = !location || location === "all" || 
       provider.location.toLowerCase().includes(location.toLowerCase());
     
-    const matchesSpecialization = !specialization ||
+    const matchesSpecialization = !specialization || specialization === "all" ||
       provider.specialization.toLowerCase().includes(specialization.toLowerCase());
     
     return matchesSearch && matchesLocation && matchesSpecialization;
