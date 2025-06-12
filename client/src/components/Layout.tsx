@@ -31,12 +31,16 @@ export default function Layout({ children }: LayoutProps) {
                   Providers
                 </span>
               </Link>
-              <a href="#about" className="text-gray-500 hover:text-gray-700 transition-colors">
-                About
-              </a>
-              <a href="#contact" className="text-gray-500 hover:text-gray-700 transition-colors">
-                Contact
-              </a>
+              <Link href="/about">
+                <span className={`${location === "/about" ? "text-primary font-medium border-b-2 border-primary pb-2" : "text-gray-500 hover:text-gray-700"} transition-colors cursor-pointer`}>
+                  About
+                </span>
+              </Link>
+              <Link href="/contact">
+                <span className={`${location === "/contact" ? "text-primary font-medium border-b-2 border-primary pb-2" : "text-gray-500 hover:text-gray-700"} transition-colors cursor-pointer`}>
+                  Contact
+                </span>
+              </Link>
             </div>
 
             {/* Mobile menu button */}
@@ -68,8 +72,8 @@ export default function Layout({ children }: LayoutProps) {
               <h4 className="font-semibold text-gray-700 mb-4">Quick Links</h4>
               <ul className="space-y-2 text-gray-600">
                 <li><Link href="/"><span className="hover:text-primary transition-colors">Find Providers</span></Link></li>
-                <li><a href="#about" className="hover:text-primary transition-colors">About Us</a></li>
-                <li><a href="#how-it-works" className="hover:text-primary transition-colors">How It Works</a></li>
+                <li><Link href="/about"><span className="hover:text-primary transition-colors">About Us</span></Link></li>
+                <li><Link href="/contact"><span className="hover:text-primary transition-colors">Contact</span></Link></li>
               </ul>
             </div>
             
@@ -77,7 +81,7 @@ export default function Layout({ children }: LayoutProps) {
               <h4 className="font-semibold text-gray-700 mb-4">Support</h4>
               <ul className="space-y-2 text-gray-600">
                 <li><a href="#help" className="hover:text-primary transition-colors">Help Center</a></li>
-                <li><a href="#contact" className="hover:text-primary transition-colors">Contact Us</a></li>
+                <li><Link href="/contact"><span className="hover:text-primary transition-colors">Contact Us</span></Link></li>
                 <li><a href="#privacy" className="hover:text-primary transition-colors">Privacy Policy</a></li>
               </ul>
             </div>

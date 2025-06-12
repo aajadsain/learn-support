@@ -1,0 +1,54 @@
+📌 TASK: Extend the existing React + Vite + TypeScript project (Learning Support Provider Directory) with:
+
+🧩 NEW PAGES:
+1. `/about` – About the project/team
+2. `/contact` – Contact form and details
+
+🛠 REQUIREMENTS:
+
+1. ✅ ROUTING:
+- Use React Router DOM to add 2 new routes:
+  - `/about`
+  - `/contact`
+- Add navigation links (e.g., in a navbar or header) so users can access these pages from anywhere.
+
+2. ✅ ABOUT PAGE (`/about`):
+- Create a new file: `src/pages/About.tsx`
+- Page content:
+  - Heading: “About the Learning Support Directory”
+  - Paragraph describing the purpose of the project (supporting students with learning needs like ADHD, Dyslexia, etc.)
+  - Optional: Section about the team or vision
+  - Use TailwindCSS to style the page cleanly and responsively
+
+3. ✅ CONTACT PAGE (`/contact`):
+- Create a new file: `src/pages/Contact.tsx`
+- Page content:
+  - Heading: “Contact Us”
+  - Show email and phone support details
+  - Add a working contact form with fields: Name, Email, Message
+  - On submit, just log the form data to console (no backend needed)
+  - Add basic validation (required fields)
+  - Make the layout responsive with TailwindCSS
+
+4. ✅ COMPONENTS (optional but preferred):
+- `Navbar.tsx` (add Home, About, Contact links)
+- `Footer.tsx` if you want to include contact info or links again at bottom
+
+5. ✅ QUALITY:
+- Use reusable components
+- Clean responsive design
+- Add Tailwind utility classes for padding, margin, spacing
+- Add TypeScript interfaces where needed
+- Proper error handling if form fields are empty
+
+👉 DELIVERABLES:
+- `src/pages/About.tsx`  
+- `src/pages/Contact.tsx`  
+- Updated routes in `App.tsx`  
+- `Navbar.tsx` or equivalent layout component with links  
+- Contact form with basic validation + console output  
+- Responsive UI for both pages
+
+🎯 GOAL:
+Make this a professional, production-ready UI with proper navigation and full informational content for a real-world feel. Generate all required code files with full content and styling.
+
