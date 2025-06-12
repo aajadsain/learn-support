@@ -27,17 +27,23 @@ export default function Layout({ children }: LayoutProps) {
             {/* Navigation Links */}
             <div className="hidden md:flex items-center space-x-8">
               <Link href="/">
-                <span className={`${location === "/" ? "text-primary font-medium border-b-2 border-primary pb-2" : "text-gray-500 hover:text-gray-700"} transition-colors cursor-pointer`}>
+                <span
+                  className={`${location === "/" ? "text-primary font-medium border-b-2 border-primary pb-2" : "text-gray-500 hover:text-gray-700"} transition-colors cursor-pointer`}
+                >
                   Providers
                 </span>
               </Link>
               <Link href="/about">
-                <span className={`${location === "/about" ? "text-primary font-medium border-b-2 border-primary pb-2" : "text-gray-500 hover:text-gray-700"} transition-colors cursor-pointer`}>
+                <span
+                  className={`${location === "/about" ? "text-primary font-medium border-b-2 border-primary pb-2" : "text-gray-500 hover:text-gray-700"} transition-colors cursor-pointer`}
+                >
                   About
                 </span>
               </Link>
               <Link href="/contact">
-                <span className={`${location === "/contact" ? "text-primary font-medium border-b-2 border-primary pb-2" : "text-gray-500 hover:text-gray-700"} transition-colors cursor-pointer`}>
+                <span
+                  className={`${location === "/contact" ? "text-primary font-medium border-b-2 border-primary pb-2" : "text-gray-500 hover:text-gray-700"} transition-colors cursor-pointer`}
+                >
                   Contact
                 </span>
               </Link>
@@ -60,33 +66,77 @@ export default function Layout({ children }: LayoutProps) {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="col-span-1 md:col-span-2">
               <div className="flex items-center mb-4">
-                <GraduationCap className="text-primary text-2xl mr-3" size={32} />
-                <h3 className="text-xl font-bold text-gray-700">LearnSupport Directory</h3>
+                <GraduationCap
+                  className="text-primary text-2xl mr-3"
+                  size={32}
+                />
+                <h3 className="text-xl font-bold text-gray-700">
+                  LearnSupport Directory
+                </h3>
               </div>
               <p className="text-gray-600 mb-4">
-                Connecting students with qualified learning support providers to achieve academic success.
+                Connecting students with qualified learning support providers to
+                achieve academic success.
               </p>
             </div>
-            
+
             <div>
               <h4 className="font-semibold text-gray-700 mb-4">Quick Links</h4>
               <ul className="space-y-2 text-gray-600">
-                <li><Link href="/"><span className="hover:text-primary transition-colors">Find Providers</span></Link></li>
-                <li><Link href="/about"><span className="hover:text-primary transition-colors">About Us</span></Link></li>
-                <li><Link href="/contact"><span className="hover:text-primary transition-colors">Contact</span></Link></li>
+                <li>
+                  <Link href="/">
+                    <span className="hover:text-primary transition-colors">
+                      Find Providers
+                    </span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/about">
+                    <span className="hover:text-primary transition-colors">
+                      About Us
+                    </span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/contact">
+                    <span className="hover:text-primary transition-colors">
+                      Contact
+                    </span>
+                  </Link>
+                </li>
               </ul>
             </div>
-            
+
             <div>
               <h4 className="font-semibold text-gray-700 mb-4">Support</h4>
               <ul className="space-y-2 text-gray-600">
-                <li><a href="#help" className="hover:text-primary transition-colors">Help Center</a></li>
-                <li><Link href="/contact"><span className="hover:text-primary transition-colors">Contact Us</span></Link></li>
-                <li><a href="#privacy" className="hover:text-primary transition-colors">Privacy Policy</a></li>
+                <li>
+                  <a
+                    href="#help"
+                    className="hover:text-primary transition-colors"
+                  >
+                    Help Center
+                  </a>
+                </li>
+                <li>
+                  <Link href="/contact">
+                    <span className="hover:text-primary transition-colors">
+                      Contact Us
+                    </span>
+                  </Link>
+                </li>
+                <li>
+                  <a
+                    href="#privacy"
+                    className="hover:text-primary transition-colors"
+                  >
+                    Privacy Policy
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
-          
+
           <div className="border-t border-gray-200 mt-8 pt-8 text-center text-gray-500">
             <p>&copy; 2024 LearnSupport Directory. All rights reserved.</p>
           </div>
@@ -95,3 +145,4 @@ export default function Layout({ children }: LayoutProps) {
     </div>
   );
 }
+//? the server is start with
